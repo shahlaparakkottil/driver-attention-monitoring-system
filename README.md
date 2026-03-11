@@ -36,12 +36,31 @@ This project aims to improve road safety by detecting driver fatigue and inatten
 
 ## 5. Dataset
 
-The dataset used in this project consists of driver images categorized into two classes:
+The dataset used in this project is obtained from Kaggle:
 
-* **Attentive** – Images of drivers who are alert and focused.
-* **Drowsy** – Images of drivers showing signs of fatigue or sleepiness.
+https://www.kaggle.com/datasets/dheerajperumandla/drowsiness-dataset
 
-The images were preprocessed and resized before being used to train the CNN model. The dataset was divided into training and validation sets to evaluate model performance.
+The original dataset contains **four categories** of driver images. For the purpose of this project, the dataset was reorganized into **two classes**:
+
+* **Attentive** – Images representing drivers who are alert and focused.
+* **Drowsy** – Images representing drivers showing signs of fatigue or sleepiness.
+
+The images were grouped and structured into training and validation folders before training the CNN model.
+
+Dataset structure used in this project:
+
+dataset/
+
+├── train/
+│   ├── attentive/
+│   └── drowsy/
+│
+└── val/
+    ├── attentive/
+    └── drowsy/
+
+All images were resized and preprocessed before being used to train the deep learning model.
+
 
 ---
 
