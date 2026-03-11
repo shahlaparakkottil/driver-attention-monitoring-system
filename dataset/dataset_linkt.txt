@@ -1,0 +1,9 @@
+Dataset Source:
+https://www.kaggle.com/datasets/dheerajperumandla/drowsiness-dataset
+
+Note:
+The original dataset contains four categories. For this project,
+the dataset was reorganized into two classes:
+
+1. Attentive
+2. Drowsy
