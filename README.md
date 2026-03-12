@@ -82,12 +82,11 @@ Driver-Attention-Monitoring-System/
 ## 7. Installation
 
 1. Clone the repository
-git clone https://github.com/your-username/driver-attention-monitoring-system.git
-cd driver-attention-monitoring-system
+git clone https://github.com/shahlaparakkottil/driver-attention-monitoring-system.git
 
 2. Navigate to the project folder
 
-cd DL
+cd driver-attention-monitoring-system
 
 3. Install required dependencies
 
